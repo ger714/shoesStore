@@ -1,0 +1,144 @@
+
+
+*{
+    margin: 0;  
+    padding: 0;
+    
+}
+
+
+
+body{
+    background: rgb(241, 241, 241);
+    color: black;
+    text-align: center;
+}
+
+div[class|="col"]{
+    border: 1px solid white;
+    background: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.carrito{
+    width: 20px;
+    height: 20px;
+}
+
+/* .row{
+    background: rgb(177, 175, 175);
+} */
+
+#navbar{
+    background: #fff;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.container{
+    margin-top: 10px;
+}
+
+#metodos{
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.mt-pg{
+    padding: 10px;
+}
+
+/*mouse*/
+
+.mouse{
+    padding: 20px;
+}
+
+/*titulos*/
+
+.titulo{
+    margin-top: 20px;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+}
+
+/*card*/
+
+.card:hover{
+    -webkit-box-shadow: 9px 8px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 8px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 9px 8px 10px -5px rgba(0,0,0,0.75);
+}
+
+/*Nuevos lanzamientos*/
+
+.jumbotron{
+    margin-top: 20px;
+    background-image: url(../img/nuevo.jpg);
+    -webkit-box-shadow: 9px 8px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 8px 10px -5px rgba(0,0,0,0.75);
+    box-shadow: 9px 8px 10px -5px rgba(0,0,0,0.75);
+}
+
+.texto{
+    
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.623);
+}
+
+/*Lineas destacadas*/
+
+#card-b-1{
+    background: url(../img/linea1.jpg);
+background-size: cover;
+}
+
+#card-b-2{
+    background: url(../img/linea2.jpg);
+    background-size: cover;
+}
+
+/*Modelos disponibles*/
+
+
+
+/*footer*/
+footer{
+    margin-top: 20px;
+    background: #fff;
+    height: 300px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fas {
+    padding: 2px;
+    font-size: 20px;
+    width: 10px;
+  }
+
+  /*copyright*/
+
+  .copyright{
+      padding: 10px;
+      font-size: 20px;
+  }
+
+
+
+
